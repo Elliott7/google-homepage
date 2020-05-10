@@ -55,8 +55,10 @@ body {
     display: block;
     margin:auto;
     width: 450px;
-    height: 25px;
+    height: 35px;
     border-radius:24px;
+    /* border-color: tra; */
+    border: 1px solid rgba(170, 167, 167, 0.5);
 }
 
 .searchbox:hover{
