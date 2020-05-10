@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flexbox-item{
+                width:200px;
+                margin: 10px;
+                border: 3px solid #333333;
+                background-color: #dfdfdf;
+            }
+            .flexbox-container{
+                border: 3px solid #333333;
+                background-color: #dfdfdf;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .flexbox-item-1{
+                min-height: 100px;
+            }
+            .flexbox-item-2{
+                min-height: 200px;
+            }
+            .flexbox-item-3{
+                min-height: 400px;
+            }
+            body {
+                background-color: beige;
+            }
+            .bottombox{
+                position: fixed;
+                bottom: 0px;
+                left: 0px;
+                background-color: grey;
+                width: 100vw;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .bottombox ul li{
+                list-style: none;
+                display: inline;
+                padding: 15px;
+            }
+
+        </style>
+        <title>Flexbox example</title>
+    </head>
+    <body>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">
+                <div>item 1</div>
+                <div>item 2</div>
+            </div>
+            <div class="flexbox-item flexbox-item-2">
+                <a href="#">item 3</a>
+                <a href="#">item 4</a>
+            </div>
+            <div class="flexbox-item flexbox-item-3"></div>
+
+        </div>
+        <br>
+        <div class=bottombox>
+            <div>
+                <ul>
+                    <li>Ask Us</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Contact</li>
+                    <li>Office Locations</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
